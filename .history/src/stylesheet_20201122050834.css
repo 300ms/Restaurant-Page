@@ -5,7 +5,7 @@ body {
 
 nav {
   height: 7%;
-  border-bottom: 2px solid #3d315b;
+  border-bottom: 2px solid #3D315B;
 }
 
 .footer {
@@ -17,7 +17,7 @@ nav {
   background-color: #303030;
   color: white;
   text-align: center;
-  border-top: 2px solid #3d315b;
+  border-top: 2px solid #3D315B;
 }
 
 #content {
@@ -29,15 +29,17 @@ nav {
   display: flex;
   justify-content: space-evenly;
   border-radius: 5px;
+  padding: 0;
   background: #593196;
+  width: fit-content;
   overflow: hidden;
   margin: 0;
   padding: 10px;
-  box-shadow: 0 2px 3px rgba(71, 71, 71, 0.31);
+  box-shadow:0 2px 3px rgba(71, 71, 71, 0.31);
 }
 
 .button {
-  background: #dce0e0;
+  background: #DCE0E0;
   position: relative;
   display: block;
   float: left;
@@ -60,11 +62,11 @@ nav {
   height: 100%;
   width: 38px;
   -moz-border-radius-topleft: 3px;
-  -moz-border-radius-topright: 0;
-  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
   -moz-border-radius-bottomleft: 3px;
-  -webkit-border-radius: 3px 0 0 3px;
-  border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0px 0px 3px;
   text-align: center;
 }
 
@@ -81,19 +83,19 @@ nav {
   left: 38px;
   position: absolute;
   width: 112px;
-  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topleft: 0px;
   -moz-border-radius-topright: 3px;
   -moz-border-radius-bottomright: 3px;
-  -moz-border-radius-bottomleft: 0;
-  -webkit-border-radius: 0 3px 3px 0;
-  border-radius: 0 3px 3px 0;
+  -moz-border-radius-bottomleft: 0px;
+  -webkit-border-radius: 0px 3px 3px 0px;
+  border-radius: 0px 3px 3px 0px;
 }
 
 .slide p {
-  font-family: Open Sans, sans-serif;
+  font-family: Open Sans;
   font-weight: 400;
   border-left: 1px solid #fff;
-  border-left: 1px solid rgba(255, 255, 255, 0.35);
+  border-left: 1px solid rgba(255,255,255,0.35);
   color: #fff;
   font-size: 16px;
   left: 0;
@@ -137,26 +139,6 @@ nav {
   z-index: 1;
 }
 
-.facebook .icon,
-.facebook .slide {
-  background: #305c99;
-}
-
-.twitter .icon,
-.twitter .slide {
-  background: #00cdff;
-}
-
-.linkedin .icon,
-.linkedin .slide {
-  background: #007bb6;
-}
-
-.twitter-share-button {
-  margin-left: 60px;
-  margin-top: 10px;
-}
-
 .facebook:hover .slide {
   left: 150px;
 }
@@ -167,4 +149,20 @@ nav {
 
 .linkedin:hover .slide {
   left: -150px;
+}
+
+.facebook .icon, .facebook .slide {
+  background: #305c99;
+}
+
+.twitter .icon, .twitter .slide {
+  background: #00cdff;
+}
+
+.linkedin .icon, .linkedin .slide {
+  background: #007bb6;
+}
+.twitter-share-button {
+margin-left: 60px;
+margin-top: 10px;
 }
