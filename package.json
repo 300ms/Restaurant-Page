@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "Simple restaurant page with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/300ms/Restaurant-Page.git"
+  },
+  "author": "h4n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/300ms/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/300ms/Restaurant-Page#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
