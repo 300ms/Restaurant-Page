@@ -8,6 +8,6 @@ export default class Home {
     description.innerHTML = 'Best food, Good Food';
     homeDiv.appendChild(header);
     homeDiv.appendChild(description);
-    document.getElementById('content').appendChild(homeDiv);
+    document.getElementById("content").appendChild(homeDiv);
   }
 }

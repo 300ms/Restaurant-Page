@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
 import cssBootstrap from './bootstrap.min.css';
 import cssStylesheet from './stylesheet.css';
 import back from './images/background.jpg';
@@ -12,7 +10,7 @@ document.getElementById('content').style.backgroundRepeat = 'no-repeat';
 document.getElementById('content').style.backgroundPosition = 'center top';
 document.getElementById('content').style.backgroundSize = '100% 100%';
 
-function clearContainer() { document.getElementById('content').innerHTML = ''; }
+const clearContainer = () => document.getElementById('content').innerHTML = '';
 
 Home.homePage();
 

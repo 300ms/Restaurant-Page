@@ -1,4 +1,3 @@
-/* eslint-disable import/extensions */
 import { foods, drinks, dessert } from './menuObjects.js';
 
 const calculateAspectRatioFit = (srcWidth, srcHeight, maxWidth = 200, maxHeight = 200) => {

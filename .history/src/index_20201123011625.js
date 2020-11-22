@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable import/extensions */
 import cssBootstrap from './bootstrap.min.css';
 import cssStylesheet from './stylesheet.css';
 import back from './images/background.jpg';
