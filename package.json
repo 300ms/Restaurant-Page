@@ -18,8 +18,13 @@
   "homepage": "https://github.com/300ms/Restaurant-Page#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "css-loader": "^5.0.1",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2"
+    "eslint-plugin-import": "^2.20.2",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0"
   }
 }
