@@ -12,7 +12,7 @@ document.getElementById('content').style.backgroundRepeat = 'no-repeat';
 document.getElementById('content').style.backgroundPosition = 'center top';
 document.getElementById('content').style.backgroundSize = '100% 100%';
 
-function clearContainer() { document.getElementById('content').innerHTML = ''; }
+const clearContainer = () => { document.getElementById('content').innerHTML = ''; };
 
 Home.homePage();
 
